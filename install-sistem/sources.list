@@ -1,0 +1,11 @@
+# Repository
+
+deb http://archive.canonical.com/ubuntu xenial partner
+deb-src http://archive.canonical.com/ubuntu xenial partner
+
+deb http://kambing.ui.ac.id/ubuntu/ xenial main restricted universe multiverse
+deb http://kambing.ui.ac.id/ubuntu/ xenial-updates main restricted universe multiverse
+deb http://kambing.ui.ac.id/ubuntu/ xenial-security main restricted universe multiverse
+deb http://kambing.ui.ac.id/ubuntu/ xenial-backports main restricted universe multiverse
+deb http://kambing.ui.ac.id/ubuntu/ xenial-proposed main restricted universe multiverse
+

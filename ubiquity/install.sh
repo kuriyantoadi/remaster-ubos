@@ -1,0 +1,1 @@
+cp * -rf /usr/share/ubiquity/pixmaps
