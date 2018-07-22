@@ -4,6 +4,12 @@ sudo cat sources.list >> /etc/apt/sources.list
 # Ganti lsb-release
 sudo cat lsb-release > /etc/lsb-release
 
+# Ganti os-release
+sudo cat os-release > /etc/os-release
+
+# Tambah user unbaja ke sudoers
+sudo cat sudoers >> /etc/sudoers
+
 # update repository
 sudo apt update -y
 
@@ -23,8 +29,8 @@ sudo dpkg -i program/atom-amd64.deb
 
 #install xampp
 #gagal
-#chmod 777 /program/xampp-linux-x64-5.6.36-0-installer.run
-#sudo ./program/xampp-linux-x64-5.6.36-0-installer.run
+suo chmod 777 /program/xampp-linux-x64-5.6.36-0-installer.run
+sudo ./program/xampp-linux-x64-5.6.36-0-installer.run
 
 #memperbaiki paket
 sudo apt install -f -y
@@ -36,4 +42,3 @@ sudo apt install -f -y
 # Program po
 #install star UML
 #StarUML-3.0.1-x86_64.AppImage
-
