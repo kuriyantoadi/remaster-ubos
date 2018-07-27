@@ -10,12 +10,15 @@ sudo cat os-release > /etc/os-release
 # Tambah user unbaja ke sudoers
 sudo cat sudoers >> /etc/sudoers
 
+# Repo PPA telegram
+sudo add-apt-repository ppa:atareao/telegram
+
 # update repository
 sudo apt update -y
 
 # Program Repo
 # app
-sudo apt install vlc inkscape audacious -y
+sudo apt install vlc inkscape audacious telegram -y
 
 # Program pihak ke 3
 #install libreoffice
@@ -23,6 +26,8 @@ sudo apt remove xfburn thunderbird transmission* parole gnome-mines gnome-sudoku
 sudo apt autoremove -y
 sudo apt clean -y
 sudo dpkg -i program/LibreOffice/*
+sudo dpkg -i program/
+sudo apt install telegram
 
 #install atom
 sudo dpkg -i program/atom-amd64.deb
