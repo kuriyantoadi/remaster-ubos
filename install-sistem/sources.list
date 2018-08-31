@@ -9,3 +9,8 @@ deb http://kambing.ui.ac.id/ubuntu/ xenial-security main restricted universe mul
 deb http://kambing.ui.ac.id/ubuntu/ xenial-backports main restricted universe multiverse
 deb http://kambing.ui.ac.id/ubuntu/ xenial-proposed main restricted universe multiverse
 
+deb http://sby.data.utama.net.id/ubuntu/ xenial main restricted universe multiverse
+deb http://sby.data.utama.net.id/ubuntu/ xenial-updates main restricted universe multiverse
+deb http://sby.data.utama.net.id/ubuntu/ xenial-security main restricted universe multiverse
+deb http://sby.data.utama.net.id/ubuntu/ xenial-backports main restricted universe multiverse
+deb http://sby.data.utama.net.id/ubuntu/ xenial-proposed main restricted universe multiverse
