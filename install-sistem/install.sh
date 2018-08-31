@@ -19,7 +19,10 @@ echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sourc
 
 # update repository
 sudo apt update -y && sudo apt dist-upgrade &&
-sudo apt install vlc inkscape audacious spotify-client -y
+sudo apt install vlc
+sudo apt install audacious
+sudo apt install inkscape
+sudo apt install spotify-client -y
 
 # Program Repo
 
