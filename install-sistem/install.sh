@@ -11,14 +11,15 @@ sudo cat os-release > /etc/os-release
 sudo cat sudoers >> /etc/sudoers
 
 # Repo PPA telegram
-sudo add-apt-repository ppa:atareao/telegram
+#sudo add-apt-repository ppa:atareao/telegram
 
 # Repo PPA Spotify
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 931FF8E79F0876134EDDBDCCA87FF9DF48BF1C90
 echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
 
 # update repository
-sudo apt update -y && sudo apt dist-upgrade
+sudo apt update -y && sudo apt dist-upgrade &&
+sudo apt install vlc inkscape audacious spotify-client -y
 
 # Program Repo
 
@@ -38,16 +39,13 @@ sudo dpkg -i program/atom-amd64.deb
 sudo chmod 777 /program/xampp-linux-x64-5.6.36-0-installer.run
 sudo ./program/xampp-linux-x64-5.6.36-0-installer.run &&
 
-#install aplikasi
-sudo apt install vlc inkscape audacious spotify-client -y
-
 #memperbaiki paket
 sudo apt install -f -y
 
 # menambah user baru
 #echo "password unbaja"
 sudo adduser unbaja
-sudo passwd unbaja
+#sudo passwd unbaja
 
 # Program po
 #install star UML
