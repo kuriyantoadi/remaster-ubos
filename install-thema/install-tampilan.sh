@@ -7,7 +7,7 @@ sudo rm -rf /usr/share/themes/Greybird/*
 sudo cp -rf OSX-Arc-White/* /usr/share/themes/Greybird/
 
 # ganti wallpaper
-sudo rm -rf usr/share/xfce4/backdrops/*
+sudo rm -rf /usr/share/xfce4/backdrops/*
 sudo cp wallpaper/xubuntu-wallpaper.png /usr/share/xfce4/backdrops/
 sudo cp wallpaper/wallpaper-ubos-tghart.png /usr/share/xfce4/backdrops/
 sudo cp wallpaper/wallpaper-ubos-neng.jpg /usr/share/xfce4/backdrops/

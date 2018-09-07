@@ -14,16 +14,17 @@ sudo cat sudoers >> /etc/sudoers
 #sudo add-apt-repository ppa:atareao/telegram
 
 # Repo PPA Spotify
-#sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 931FF8E79F0876134EDDBDCCA87FF9DF48BF1C90
-#echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 931FF8E79F0876134EDDBDCCA87FF9DF48BF1C90
+echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
 
 # update repository
 sudo apt update -y
-sudo apt dist-upgrade
+sudo apt dist-upgrade -y
 sudo apt install vlc -y
 sudo apt install audacious -y
 sudo apt install inkscape -y
-#sudo apt install spotify-client -y
+sudo apt install spotify-client -y
+sudo apt install git -y
 
 # Program Repo
 
@@ -39,7 +40,6 @@ sudo dpkg -i program/google*
 sudo dpkg -i program/atom-amd64.deb
 
 #install xampp
-#gagal
 sudo chmod 777 /program/xampp-linux-x64-5.6.36-0-installer.run
 sudo ./program/xampp-linux-x64-5.6.36-0-installer.run &&
 
