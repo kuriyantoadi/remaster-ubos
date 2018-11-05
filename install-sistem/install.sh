@@ -25,6 +25,7 @@ sudo apt install audacious -y
 sudo apt install inkscape -y
 sudo apt install spotify-client -y
 sudo apt install git -y
+sudo apt install gimp -y
 
 # Program Repo
 
@@ -40,7 +41,7 @@ sudo dpkg -i program/google*
 sudo dpkg -i program/atom-amd64.deb
 
 #install xampp
-sudo chmod 777 /program/xampp-linux-x64-5.6.36-0-installer.run
+sudo chmod 777 program/xampp-linux-x64-5.6.36-0-installer.run
 sudo ./program/xampp-linux-x64-5.6.36-0-installer.run &&
 
 #memperbaiki paket
